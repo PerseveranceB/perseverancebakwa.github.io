@@ -218,7 +218,6 @@ body {
 	background:none;
 	border: none;
 }
-
 .team .card-title {
 	font-size: 1.3rem;
 	margin-bottom: 0;
@@ -234,6 +233,17 @@ body {
 }
 
 .footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+.Revue {
+	background-color: #189f70f4;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.Revue-copyright {
 	color: #666;
 	padding: 40px 0;
 }

@@ -14,3 +14,22 @@ ready(() => {
 setTimeout(function() {
 	$('#demo-modal').modal();
 }, 500);
+
+var triggerTabList = [].slice.call(document.querySelectorAll('#Service'))
+triggerTabList.forEach(function (triggerEl) {
+  var tabTrigger = new bootstrap.Tab(triggerEl)
+
+  triggerEl.addEventListener('click', function (event) {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
+var triggerTabList = [].slice.call(document.querySelectorAll('#myTab Coiffeur'))
+triggerTabList.forEach(function (triggerEl) {
+  var tabTrigger = new bootstrap.Tab(triggerEl)
+
+  triggerEl.addEventListener('click', function (event) {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
