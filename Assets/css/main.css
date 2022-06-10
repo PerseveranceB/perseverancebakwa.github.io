@@ -3,7 +3,8 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: #f2f6e9; 
+	box-sizing: border-box; 
+	background: #189f70f4;
 }
 
 /*--- navigation bar ---*/
@@ -66,12 +67,12 @@ body {
 	line-height: 1.5;
 }
 
-.description button {
+/*.description button {
 	border: 1px solid #6ab446;
 	background: #6ab446;
 	border-radius: 0;
 	color: #fff;
-}
+}*/
 
 
 /*--- feature section ---*/
@@ -112,6 +113,88 @@ body {
 	background-color: #333;
 	border: 1px solid #333;
 }
+
+
+/*--Rendez vous---*/
+.rendezboy{
+	background-color:rgb(235, 244, 243);
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+.navigateur{
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.appt1 {
+	margin: 0;
+	padding: 10% 0;
+	position: relative;
+	background-image:url("../../Assets/Bienvenue\ bcgd\ pic.webp");
+}
+.appt {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.appt p {
+	color: rgb(255, 255, 255);
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.appt h3 {
+	color: #6ab446;
+}
+.miette {
+	left: 5%;
+	position: absolute;
+	top: 20%;
+	transform: translate(-50%, -55%);
+	text-align: center;	
+}
+
+.miet {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.nav1 {
+	margin: 0;
+	padding: 3% 0;
+	position: relative;
+	box-sizing: content-box;
+	background-color: #eff2f1f4;
+	/*box-sizing: border-box;*/
+}
+.nav2 {
+	background-color: #189f70f4;/**/
+	margin: 0;
+	box-sizing: content-box;
+	padding: 0;
+    /*width: 100%;*/
+}
+
+.nav2-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav2-link {
+	margin-right: 1em !important;
+}
+
+.nav2-link:hover {
+	color: #000;
+}
+
+.nav2-collapse {
+	justify-content: flex-end;
+}
+
 
 /*--- team section ---*/
 
